@@ -20,17 +20,17 @@
         <!-- Start of navbar -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid">
-            <a class="navbar-brand" href="/Web-Design-Challenge/Web-Design-Challenge/index.html">Latitude</a>
+            <a class="navbar-brand" href="index.html">Latitude</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="/Web-Design-Challenge/Web-Design-Challenge/index.html">Home</a>
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/Web-Design-Challenge/Web-Design-Challenge/comparison.html">Comparison</a>
+                  <a class="nav-link" href="comparison.html">Comparison</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -44,7 +44,7 @@
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/Web-Design-Challenge/Web-Design-Challenge/data.html">Data</a>
+                  <a class="nav-link" href="data.html">Data</a>
                 </li>
               </ul>
               <form class="d-flex" role="search">
@@ -56,13 +56,42 @@
         </nav>
         <!-- End of navbar -->
 
+         <!-- Start of container --> 
+        <div class="container">
     <h1>Summary: Latitude vs. X</h1>
     <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.   </p>
     <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and decriptions of any trends and correlations witnessed. </p>
     <hr>
-
-    <!-- Start of container -->
+  
           <!-- Start of Visualizations imageNav Area -->
+          
+              <h2>Visualizations</h2>
+                
+                <div class= "container">
+                    <div class="col-6">
+                      <div class="title">vs. Max Temperature</div>
+                      <a href="visualizations/temp.html">
+                      <img id ="visual1" src="assets/images/Fig1.png" alt="vs Max Temperature" height="400" width="400"> 
+                      </a>
+                    </div> 
+                    <div class= "col-6">
+                      <div class="title">vs. Humidity</div>
+                      <a href="visualizations/humidity.html">
+                      <img id ="visual2" src="assets/images/Fig2.png" alt="vs Humidity" height="400" width="400">
+                      </a>
+                    </div> 
+                    <div class= "col-6">
+                      <div class="title">vs. Cloudiness</div>
+                      <a href="visualizations/cloudiness.html">
+                      <img id = "visual3" src="assets/images/Fig3.png" alt="vs Cloudiness" height="400" width="400">
+                      </a>
+                    </div>      
+                    <div class= "col-6">
+                      <div class="title">vs. Wind Speed</div>
+                      <a href="visualizations/wind.html">
+                      <img id = "visual4" src="assets/images/Fig4.png" alt="vs Wind Speed" height="400" width="400">
+                      </a>
+                    </div>
           <!-- End of the Visualizations imageNav Area -->
     <!-- End of container -->
 
